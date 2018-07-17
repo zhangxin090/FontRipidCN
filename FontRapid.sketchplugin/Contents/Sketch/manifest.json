@@ -1,0 +1,26 @@
+{
+	"name": "字体设计FontRapid",
+	"description": "Design and create fonts directly in Sketch. 🔥",
+	"author": "FontRapid Team",
+	"homepage": "https://fontrapid.com",
+	"version": "1.5.0",
+	"identifier": "com.fontrapid.sketch",
+	"icon": "appicon.png",
+	"compatibleVersion": "3",
+	"appcast": "https://fontrapid.com/update/sketch.xml",
+	"commands": [{
+		"name": "字体设计画板",
+		"identifier": "toggle",
+		"shortcut": "",
+		"script": "panel.js",
+		"handlers": {
+			"run": "onRun"
+		}
+	}],
+	"menu": {
+		"title": "字体设计FontRapid",
+		"isRoot": true,
+		"items": ["toggle"]
+	},
+	"email": "team@fontrapid.com"
+}
